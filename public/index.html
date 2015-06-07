@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample TODO app</title>
+	<script src="js/raja.js"></script>
+	<script>
+raja.on('/api/todo', function(data, meta) {
+	collection.innerText = data;
+});
+	</script>
+</head>
+<body>
+	<div id="collection"></div>
+	<div id="edit"></div>
+</body>
+</html>
