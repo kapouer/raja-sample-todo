@@ -1,0 +1,24 @@
+{
+  "name": "raja-sample-todo",
+  "version": "0.0.0",
+  "description": "Sample TODO application using raja",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:kapouer/raja-sample-todo.git"
+  },
+  "keywords": [
+    "raja",
+    "todo",
+    "mvc",
+    "isomorphic"
+  ],
+  "author": "Jérémy Lal <kapouer@melix.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapouer/raja-sample-todo/issues"
+  }
+}
